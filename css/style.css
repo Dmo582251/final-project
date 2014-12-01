@@ -12,10 +12,37 @@
 }
 
 /* set the default color, font-size, and line height */
-html {
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
   color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+html {
   font-size: 1em;
   line-height: 1.4;
+}
+
+body{
+font-family:'Josefin Slab', serif;
+background-image: url(../img/background-img.png)
+}
+
+h1,h2,h3{
+font-family: 'Lobster Two', cursive;
 }
 
 /* make images and embedded media fluid */
@@ -27,9 +54,11 @@ object {
 /* type hierarchy- change for your project */
 h1 {
   font-size: 3em; /* 48px */
+  color: #9e2b42;
 }
 
-h2 {
+h2{
+  color:  #303561;
   font-size: 2.25em /* 36px */
 }
 
@@ -38,8 +67,257 @@ h3 {
 }
 
 h4 {
+  color:#4d6e61;
   font-size: 1.125em /*18px */
 }
+
+/*--CSS for ABOUT ME Page--*/
+
+h1,.am{
+  text-align: center;
+}
+
+.about-me{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 60%;
+  float: left;
+  margin:60px auto;
+  margin-left: 10px;
+  padding: 30px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+.body-text{
+margin-left: 11%;
+position: relative;
+z-index: 10;
+}
+.pix{
+    margin-top: 60px;
+    width: 225px;
+    height: auto;
+    float:left;
+  box-shadow: 10px 10px 10px #634a4c;
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  
+}
+
+
+/*--CSS for RESUME Page--*/
+
+.no-white{
+color:black;
+}
+
+.resume-header{
+  text-align: center;
+  font-family:'Lobster Two', cursive;
+  font-size: 4em;
+  color:#9e2b42;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  
+  background-color: rgba(219, 214, 212, 0.85);
+  width: 70%;
+  margin:auto;
+  padding: 30px;
+  margin-top: 60px; 
+  box-shadow: 10px 10px 10px #634a4c;
+}
+
+.information{
+  font-family:'Lobster Two', cursive;
+  font-size: .80em;
+  text-align: center;
+  color:black;
+  
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 50%;
+  margin:30px auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  
+}
+
+.education{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  margin:auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-bottom:none;
+}
+
+.objective{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  margin:auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-bottom:none;
+  border-top:none;
+}
+
+.experience{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  margin:auto;
+  padding: 20px;
+  box-shadow:10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-bottom:none;
+  border-top:none;
+}
+
+.activities{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  margin:auto;
+  padding: 20px; 
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-bottom:none;
+  border-top:none;
+} 
+
+.awards{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  margin:auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-bottom:none;
+  border-top:none;
+}
+
+.skills{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  margin:auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-bottom:none;
+  border-top:none;
+}
+
+.references{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  margin:auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+  border-top:none;
+}
+
+/*--CSS for INVOLVEMENT Page--*/
+.alli{
+ background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  text-align: center;
+  margin:60px auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+
+/*--CSS for PROJECT PORTFOLIO Page--*/
+.main{
+width:65%;
+margin:60px auto;
+float: left;
+border:solid 5px #382847;
+border-radius: 10px;
+background-color:rgba(219, 214, 212, 0.85);
+}
+
+.sidebar{
+width:30%;
+margin:60px auto;
+float: right;
+border:solid 5px #382847;
+border-radius: 10px;
+background-color:rgba(219, 214, 212, 0.85);
+}
+
+.navigation li{
+list-style: none;
+}
+
+
+
+  
+
+/*--CSS for PAST EXPERIENCE Page--*/
+
+.allw{
+ background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  text-align: center;
+  margin:60px auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+
 
 /* =======================================
     author styles
@@ -61,7 +339,126 @@ h4 {
 
 
 
+/*
+ * Header --- THIS IS COPIED FROM COVER.CSS
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.masthead{
+  z-index: 12;
+  background-color:#61453a;;
+  border-color:#382847;
+  border-width: 3px;
+  border-style: solid;
+}
 
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: white; /* IE8 proofing */
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: white;
+  border-bottom-color: white;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+/*
+ * Footer
+ */
+
+
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+.mastfoot a:hover{
+  color:white;
+  font-size: 2em;
+  text-decoration:underline;
+}
+
+/*Footer -- Centering Pills*/
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
+
+.mastfoot{
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    background-color:#61453a;;
+  border-color:#382847;
+  border-width: 3px;
+  border-style: solid;
+    position:inherit;
+    bottom: 0;
+    height: 80px;
+    width: auto;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 902px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100px;
+  }
+}
 
 
 

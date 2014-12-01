@@ -60,7 +60,7 @@ body {
 
 
 /*
- * Header
+ * Header --- I copied this in every other page 
  */
 .masthead-brand {
   margin-top: 10px;
@@ -126,7 +126,27 @@ body {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
+/*
+ * Footer
+ */
 
+.mastfoot {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+.mastfoot a:hover{
+  color:white;
+  font-size: 2em;
+  text-decoration:underline;
+}
+
+/*Footer --Centering Pills*/
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
 
 /*
  * Affix and center
