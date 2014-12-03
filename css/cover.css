@@ -19,7 +19,18 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
+.inner-cover{
+  background-color:rgba(219, 214, 212, 0.85);
+  width: 90%;
+  text-align: center;
+  margin:60px auto;
+  padding: 20px;
+  box-shadow: 10px 10px 10px #634a4c;
+  border-color:#382847;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
 /*
  * Base structure
  */
@@ -131,6 +142,7 @@ body {
  */
 
 .mastfoot {
+  margin-bottom: 0px;
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
