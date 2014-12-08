@@ -1,0 +1,29 @@
+html{
+font-family: Garamond;
+}
+body{
+background:url(../img/wavegrid.jpg)
+}
+h1{
+font-family: 'Indie Flower', cursive;
+color:maroon;
+text-align: center;
+width:98%; 
+margin:auto;
+padding:10px;
+}
+h2{
+font-family: 'Indie Flower', cursive;
+color:navy;
+text-align: center;
+width:98%; 
+margin:auto;
+padding:20px;
+}
+
+p{
+font-family:'Josefin Slab', serif;
+width:70%; 
+margin:auto;
+padding:15px;
+}
